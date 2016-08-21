@@ -1,0 +1,138 @@
+body
+{
+	background-color: #323;
+	color: #999;
+	font: 12px/1.4em Arial, sans-serif;
+}
+
+h1
+{
+	text-align: center;
+}
+
+#wrap
+{
+	margin: auto;
+	margin-bottom: 250px;
+	background: rgb(55,55,55);
+	padding: 0px 10px;
+	width: 700px;
+	border-radius: 100px;
+}
+
+#fixedPos
+{
+	position: fixed;
+	z-index: 10000;
+	text-align: left;
+	width: 700px;
+	top: 5px;
+	left: 50%;
+	margin-left: -350px;
+	background: rgb(0,0,0);
+	border: 2px solid rgb(90,90,90);
+	border-radius: 15px;
+}
+
+.navigationBar li
+{
+	display: inline;
+	padding: 10px;
+	font-weight: bold;
+}
+.navigationBar a
+{
+	color: rgb(150,150,150);
+	text-decoration: none;
+}
+.navigationBar a:hover
+{
+	color: rgb(250,250,250);
+}
+
+.profilePicture
+{
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+}
+
+.profilePicture img
+{
+	width: 330px;
+	height: 330px;
+}
+
+.divider
+{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	width: 700px;
+	height: 6px;
+}
+
+.portfolioLayout
+{
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	margin-left: 15px;
+}
+
+.portfolioThumbnail img
+{
+	margin-top: 30px;
+	width: 200px;
+	height: 150px;
+	border-radius: 15px;
+}
+
+/*BUTTONS*/
+.btnList li
+{
+	display: inline;
+}
+#btn1
+{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-image: url(resources/button_Email_upState_[40x40].png);
+}
+#btn1:hover
+{
+	background-image: url(resources/button_Email_downState_[40x40].png);
+}
+#btn2
+{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-image: url(resources/button_GitHub_upState_[40x40].png);
+}
+#btn2:hover
+{
+	background-image: url(resources/button_GitHub_downState_[40x40].png);
+}
+#btn3
+{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-image: url(resources/button_FreeCodeCamp_upState_[40x40].png);
+}
+#btn3:hover
+{
+	background-image: url(resources/button_FreeCodeCamp_downState_[40x40].png);
+}
+#btn4
+{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-image: url(resources/button_Kongregate_upState_[40x40].png);
+}
+#btn4:hover
+{
+	background-image: url(resources/button_Kongregate_downState_[40x40].png);
+}
